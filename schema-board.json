@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft/2019-09/schema",
+    "title": "Board"
+    "type": "object",
+    "reguired": ["width", "height", "fields", "zones"],
+    "properties": {
+        "width": { "type": "integer" },
+        "height": { "type": "integer" },
+        "fields": { "type": "object" },
+        "zones": { "type": "object" },
+    },
+}

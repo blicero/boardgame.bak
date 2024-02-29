@@ -1,5 +1,5 @@
 # -*- mode: org; fill-column: 78; -*-
-# Time-stamp: <2024-02-29 04:04:43 krylon>
+# Time-stamp: <2024-02-29 04:32:00 krylon>
 #+TAGS: internals(i) ui(u) bug(b) feature(f)
 #+TAGS: database(d) design(e), meditation(m)
 #+TAGS: optimize(o) refactor(r) cleanup(c)
@@ -28,4 +28,17 @@
    think I am going to with that.
    But it will make the board more difficult if I want to have any sort of
    terrain instead of an empty, featureless plane as in chess.
+   I want to have different pieces as in chess. The pieces shall have the
+   following characteristics:
+   - Range
+   - Damage
+   - Hit points
+   - Speed
+*** Board
+    Okay, after thinking about a little, I am going to go with a rectangular
+    board and a grid. Each field can have an elevation, so features of the
+    terrain can be used for cover. Fields should have further qualities, if
+    they have negative elevation, I want fields that are more difficult to
+    cross (i.e. a lake or river) and fields that are impossible to cross. 
+    I want to be able to edit and display/render boards easily.
 ** Engines
