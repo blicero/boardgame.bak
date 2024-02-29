@@ -1,0 +1,31 @@
+# -*- mode: org; fill-column: 78; -*-
+# Time-stamp: <2024-02-29 04:04:43 krylon>
+#+TAGS: internals(i) ui(u) bug(b) feature(f)
+#+TAGS: database(d) design(e), meditation(m)
+#+TAGS: optimize(o) refactor(r) cleanup(c)
+#+TODO: TODO(t)  RESEARCH(r) IMPLEMENT(i) TEST(e) | DONE(d) FAILED(f) CANCELLED(c)
+#+TODO: MEDITATE(m) PLANNING(p) | SUSPENDED(s)
+#+PRIORITIES: A G D
+
+* Boardgame
+  I want to play with the idea of a board game and writing several engines to
+  play the game.
+  This is going to be very open-ended, the main goal is to explore different
+  ways of implementing a player AI.
+  But I will also need an actual game to play. I want something less rigid
+  than chess, less complicated than, say, Battletech, I want to allow for an
+  arbitrary number of players.
+  I also anticipate experimenting with different programming languages. I
+  think I am going to create some sort of network protocol for engines to play
+  so that I can pit different engines against each other that are written in
+  different languages.
+**  Clocktable
+   #+BEGIN: clocktable :scope file :maxlevel 255 :emphasize t
+   #+END:
+** Rules
+   I could use a grid as in chess, go, reversi, etc., or I could use a
+   "continuous" board as in Warhammer 40k. I kind of like the latter, so I
+   think I am going to with that.
+   But it will make the board more difficult if I want to have any sort of
+   terrain instead of an empty, featureless plane as in chess.
+** Engines
