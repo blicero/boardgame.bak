@@ -1,5 +1,5 @@
 # -*- mode: org; fill-column: 78; -*-
-# Time-stamp: <2024-02-29 04:32:00 krylon>
+# Time-stamp: <2024-03-02 20:18:51 krylon>
 #+TAGS: internals(i) ui(u) bug(b) feature(f)
 #+TAGS: database(d) design(e), meditation(m)
 #+TAGS: optimize(o) refactor(r) cleanup(c)
@@ -42,3 +42,14 @@
     cross (i.e. a lake or river) and fields that are impossible to cross. 
     I want to be able to edit and display/render boards easily.
 ** Engines
+** Bugs
+** Journal
+*** [2024-03-02 Sa 20:15]
+    I've gone down quite the rabbit hole, and it has given me a case of
+    mind-paralysis. It's like there's so many possibilities, I cannot choose
+    just one. This isn't good.
+    I think I should start by devising a *simple* board game, and then I can
+    grow it from there.
+    How about a single player game, you have a terrain and need to reach a
+    certain field with the least possible number of moves?
+    Yes, sounds good.
