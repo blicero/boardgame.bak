@@ -1,0 +1,13 @@
+-- %filename%
+-- created on %date%
+-- (c) %year% %author%
+--
+-- Time-stamp: <10-Apr-2010 22:06:36 krylon>
+--
+
+module %module% where
+
+
+-- Local Variables:  ***
+-- compile-command: "ghc -Wall -o %module% --make %filename%" ***
+-- End: ***

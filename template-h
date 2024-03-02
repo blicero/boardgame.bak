@@ -1,0 +1,13 @@
+/*
+ * %filename%
+ * Erstellt %date% von %author%
+ * (c) %year% %author%
+ * -*- mode: c; mode: auto-fill; fill-column: 78 -*-
+ * Time-stamp: <30-Dez-2009 16:45:01 krylon>
+ */
+
+#ifndef %cmodule%
+#define %cmodule%
+
+#endif
+

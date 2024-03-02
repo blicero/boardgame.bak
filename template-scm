@@ -1,0 +1,7 @@
+#!/usr/bin/guile -s
+!#
+;;; %basename%
+;;; Copyright (C) %year% %author%
+;;; Created %date%
+;;; Version 0.0.1
+

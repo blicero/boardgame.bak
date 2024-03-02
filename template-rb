@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8; -*-
+#
+# %filename%
+# created on %date%
+# (c) %year% %author%
+# Time-stamp: <2015-01-03 19:54:47 krylon>
+
+require 'rubygems'
+
+=begin rdoc
+%module%
+Purpose:
+Dependencies:
+=end
+
