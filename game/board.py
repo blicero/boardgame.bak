@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Time-stamp: <2024-03-02 15:48:20 krylon>
+# Time-stamp: <2024-03-02 16:32:56 krylon>
 #
 # /home/krylon/OneDrive/Dokumente/code/boardgame/server/board.py
 # created on 29. 02. 2024
@@ -65,6 +65,7 @@ class Board:  # pylint: disable-msg=R0903
 
 @dataclass(slots=True)
 class Position:
+    """Position represents a place on a board"""
     x: int
     y: int
 
