@@ -1,5 +1,5 @@
 # -*- mode: org; fill-column: 78; -*-
-# Time-stamp: <2024-03-02 20:18:51 krylon>
+# Time-stamp: <2024-03-03 15:16:26 krylon>
 #+TAGS: internals(i) ui(u) bug(b) feature(f)
 #+TAGS: database(d) design(e), meditation(m)
 #+TAGS: optimize(o) refactor(r) cleanup(c)
@@ -53,3 +53,13 @@
     How about a single player game, you have a terrain and need to reach a
     certain field with the least possible number of moves?
     Yes, sounds good.
+*** [2024-03-03 So 15:13]
+    After being very enthusiastic when I first thought of this project, I have
+    been kind stuck for the past days. But I did have a few thoughts pop into
+    my mind this weekend.
+    The main idea for a player / "AI" is cost and goals.
+    The player has to reach some goal, e.g. reach a certain field on the
+    board, and doing things, such as moving, has a cost in action points.
+    To reach the goal costs a certain amount, and the idea I just had was to
+    evaluate each possible move by how much it lowers that cost for subsequent
+    moves.
