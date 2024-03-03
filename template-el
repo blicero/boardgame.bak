@@ -1,4 +1,5 @@
 ;;; %basename% --- bla
+;;; Time-stamp: <2024-03-03 16:28:32 krylon>
 
 ;; Copyright (C) %year% %author%
 
@@ -29,8 +30,6 @@
 
 ;;; Code:
 
-(declaim (optimize (speed 3) (safety 3)))
-
-(provide '%module%)
+(provide '%lmodule%)
 
 ;;; %basename% ends here
